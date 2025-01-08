@@ -18,13 +18,8 @@ import SwiftUI
 struct SwiftUSematicColors: View {
     var body: some View {
         ScrollView {
-            SplitColorScheme{
-                Section("Foreground Colors") {
+            SplitColorScheme {
 
-                }
-                Section("Mixing Colors") {
-
-                }
             }
         }
         .padding(.horizontal, 5)
