@@ -20,7 +20,22 @@ struct SwiftUIStandardColors: View {
         ScrollView{ 
             SplitColorScheme {
                 Section("Standard Colors") {
-
+                    Color.black
+                    Color.blue
+                    Color.brown
+                    Color.clear
+                    Color.cyan
+                    Color.gray
+                    Color.green
+                    Color.indigo
+                    Color.mint
+                    Color.orange
+                    Color.pink
+                    Color.purple
+                    Color.red
+                    Color.teal
+                    Color.white
+                    Color.yellow
                 }
             }
             .padding(.horizontal, 5)
