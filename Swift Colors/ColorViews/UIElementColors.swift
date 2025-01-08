@@ -17,55 +17,42 @@ import SwiftUI
 //https://developer.apple.com/documentation/uikit/uicolor/ui_element_colors
 struct UIElementColors: View {
     var body: some View {
-        NavigationStack {
-            Form {
+        ScrollView {
+            SplitColorScheme{
                 Section("Label Colors") {
-                    Color(.label)
-                    Color(.secondaryLabel)
-                    Color(.tertiaryLabel)
-                    Color(.quaternaryLabel)
+
                 }
                 Section("Fill Colors") {
-                    Color(.systemFill)
-                    Color(.secondarySystemFill)
-                    Color(.tertiarySystemFill)
-                    Color(.quaternarySystemFill)
+
                 }
                 Section("Text Color") {
-                    Color(.placeholderText)
-                }
-                Section("Tint Colors") {
-                    Color(.tintColor)
+
                 }
                 Section("Standard Content Background Colors") {
-                    Color(.systemBackground)
-                    Color(.secondarySystemBackground)
-                    Color(.tertiarySystemBackground)
+
                 }
                 Section("Grouped Content Background Colors") {
-                    Color(.systemGroupedBackground)
-                    Color(.secondarySystemGroupedBackground)
-                    Color(.tertiarySystemGroupedBackground)
+
                 }
                 Section("Separator Colors") {
-                    Color(.separator)
-                    Color(.opaqueSeparator)
+
                 }
-                Section("Link colors") {
-                    Color(.link)
+                Section("Link color") {
+
                 }
                 Section("Nonadaptable Colors") {
-                    Color(.darkText)
-                    Color(.lightText)
+
                 }
             }
-            .navigationTitle("UI Element Colors")
         }
     }
 }
 
 #Preview {
-    UIElementColors()
+    NavigationStack {
+        UIElementColors()
+            .navigationTitle("UI Element Colors")
+    }
 }
 
 

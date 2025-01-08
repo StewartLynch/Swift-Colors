@@ -6,14 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB5B7ABC2D2E409300135B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5B7AB62D2E409300135B0F /* Preview Assets.xcassets */; };
+		BB5B7ABD2D2E409300135B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5B7AB82D2E409300135B0F /* Assets.xcassets */; };
+		BB5B7ABE2D2E409300135B0F /* ColorAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AA92D2E409300135B0F /* ColorAssets.swift */; };
+		BB5B7ABF2D2E409300135B0F /* ColorLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AAA2D2E409300135B0F /* ColorLiteral.swift */; };
+		BB5B7AC02D2E409300135B0F /* ColorModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AAB2D2E409300135B0F /* ColorModifiers.swift */; };
+		BB5B7AC12D2E409300135B0F /* ComponentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AAC2D2E409300135B0F /* ComponentValues.swift */; };
+		BB5B7AC22D2E409300135B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AAD2D2E409300135B0F /* ContentView.swift */; };
+		BB5B7AC42D2E409300135B0F /* SwiftUIStandardColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AAF2D2E409300135B0F /* SwiftUIStandardColors.swift */; };
+		BB5B7AC52D2E409300135B0F /* SwiftUSematicColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AB02D2E409300135B0F /* SwiftUSematicColors.swift */; };
+		BB5B7AC62D2E409300135B0F /* UIElementColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AB12D2E409300135B0F /* UIElementColors.swift */; };
+		BB5B7AC72D2E409300135B0F /* UIKitStandardColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7AB22D2E409300135B0F /* UIKitStandardColors.swift */; };
+		BB5B7ACA2D2E409300135B0F /* Swift_ColorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5B7ABA2D2E409300135B0F /* Swift_ColorsApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BB58C1432D2DD8AE00939622 /* Swift Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5B7AA92D2E409300135B0F /* ColorAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAssets.swift; sourceTree = "<group>"; };
+		BB5B7AAA2D2E409300135B0F /* ColorLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLiteral.swift; sourceTree = "<group>"; };
+		BB5B7AAB2D2E409300135B0F /* ColorModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModifiers.swift; sourceTree = "<group>"; };
+		BB5B7AAC2D2E409300135B0F /* ComponentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentValues.swift; sourceTree = "<group>"; };
+		BB5B7AAD2D2E409300135B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB5B7AAF2D2E409300135B0F /* SwiftUIStandardColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStandardColors.swift; sourceTree = "<group>"; };
+		BB5B7AB02D2E409300135B0F /* SwiftUSematicColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUSematicColors.swift; sourceTree = "<group>"; };
+		BB5B7AB12D2E409300135B0F /* UIElementColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementColors.swift; sourceTree = "<group>"; };
+		BB5B7AB22D2E409300135B0F /* UIKitStandardColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitStandardColors.swift; sourceTree = "<group>"; };
+		BB5B7AB62D2E409300135B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB5B7AB82D2E409300135B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5B7ABA2D2E409300135B0F /* Swift_ColorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ColorsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BB58C1452D2DD8AE00939622 /* Swift Colors */ = {
+		BB40B4F22D2F25C7007D55B0 /* Extensions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Swift Colors";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB40B4F42D2F25DA007D55B0 /* ContainerView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ContainerView;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +64,7 @@
 		BB58C13A2D2DD8AE00939622 = {
 			isa = PBXGroup;
 			children = (
-				BB58C1452D2DD8AE00939622 /* Swift Colors */,
+				BB5B7ABB2D2E409300135B0F /* Swift Colors */,
 				BB58C1442D2DD8AE00939622 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +75,43 @@
 				BB58C1432D2DD8AE00939622 /* Swift Colors.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5B7AB32D2E409300135B0F /* ColorViews */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B7AAD2D2E409300135B0F /* ContentView.swift */,
+				BB5B7AAF2D2E409300135B0F /* SwiftUIStandardColors.swift */,
+				BB5B7AB02D2E409300135B0F /* SwiftUSematicColors.swift */,
+				BB5B7AB22D2E409300135B0F /* UIKitStandardColors.swift */,
+				BB5B7AB12D2E409300135B0F /* UIElementColors.swift */,
+				BB5B7AAC2D2E409300135B0F /* ComponentValues.swift */,
+				BB5B7AA92D2E409300135B0F /* ColorAssets.swift */,
+				BB5B7AAA2D2E409300135B0F /* ColorLiteral.swift */,
+				BB5B7AAB2D2E409300135B0F /* ColorModifiers.swift */,
+			);
+			path = ColorViews;
+			sourceTree = "<group>";
+		};
+		BB5B7AB72D2E409300135B0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B7AB62D2E409300135B0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB5B7ABB2D2E409300135B0F /* Swift Colors */ = {
+			isa = PBXGroup;
+			children = (
+				BB5B7AB32D2E409300135B0F /* ColorViews */,
+				BB40B4F22D2F25C7007D55B0 /* Extensions */,
+				BB40B4F42D2F25DA007D55B0 /* ContainerView */,
+				BB5B7AB72D2E409300135B0F /* Preview Content */,
+				BB5B7AB82D2E409300135B0F /* Assets.xcassets */,
+				BB5B7ABA2D2E409300135B0F /* Swift_ColorsApp.swift */,
+			);
+			path = "Swift Colors";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +130,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BB58C1452D2DD8AE00939622 /* Swift Colors */,
+				BB40B4F22D2F25C7007D55B0 /* Extensions */,
+				BB40B4F42D2F25DA007D55B0 /* ContainerView */,
 			);
 			name = "Swift Colors";
 			packageProductDependencies = (
@@ -109,6 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5B7ABC2D2E409300135B0F /* Preview Assets.xcassets in Resources */,
+				BB5B7ABD2D2E409300135B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5B7ABE2D2E409300135B0F /* ColorAssets.swift in Sources */,
+				BB5B7ABF2D2E409300135B0F /* ColorLiteral.swift in Sources */,
+				BB5B7AC02D2E409300135B0F /* ColorModifiers.swift in Sources */,
+				BB5B7AC12D2E409300135B0F /* ComponentValues.swift in Sources */,
+				BB5B7AC22D2E409300135B0F /* ContentView.swift in Sources */,
+				BB5B7AC42D2E409300135B0F /* SwiftUIStandardColors.swift in Sources */,
+				BB5B7AC52D2E409300135B0F /* SwiftUSematicColors.swift in Sources */,
+				BB5B7AC62D2E409300135B0F /* UIElementColors.swift in Sources */,
+				BB5B7AC72D2E409300135B0F /* UIKitStandardColors.swift in Sources */,
+				BB5B7ACA2D2E409300135B0F /* Swift_ColorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,20 +15,22 @@
 
 import SwiftUI
 
-struct ComponentValues: View {
+struct ColorAssets: View {
     var body: some View {
-        Form {
-            Section("Component Values"){
-                Color(.red)
-                Color(hue: 0, saturation: 1.0, brightness: 1.0, opacity: 1)
-                Color(red: 1.0, green: 0, blue: 0, opacity: 1.0).opacity(1)
-                Color(hex: "#FF0000")
-                Color(white: 0.5)
+        ScrollView {
+            SplitColorScheme {
+                Section {
+
+                }
             }
+            .padding(.horizontal,5)
         }
     }
 }
 
 #Preview {
-    ComponentValues()
+    NavigationStack {
+        ColorAssets()
+            .navigationTitle("Asset Colors")
+    }
 }

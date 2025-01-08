@@ -15,21 +15,29 @@
 
 import SwiftUI
 
-struct Hex: View {
+// https://developer.apple.com/documentation/uikit/uicolor/standard_colors
+struct UIKitStandardColors: View {
     var body: some View {
-        VStack {
-            Color(.red).opacity(0.5)
-            Color(hue: 0, saturation: 1.0, brightness: 1.0, opacity: 0.5)
-            Color(red: 1.0, green: 0, blue: 0, opacity: 1.0).opacity(0.5)
-            Color(hex: "#FF0000").opacity(0.5)
-            Color(white: 0.5)
-            Color(.link)
-            Rectangle().fill(.red.gradient)
+        ScrollView {
+            SplitColorScheme{
+                Section("Adaptable Colors") {
+
+                }
+                Section("Adaptable Gray Colors") {
+
+                }
+                Section("Fixed Colors") {
+
+                }
+            }
+            .padding(.horizontal,5)
         }
     }
 }
 
 #Preview {
-    Hex()
+    NavigationStack {
+        UIKitStandardColors()
+            .navigationTitle("UIKt Standard Colors")
+    }
 }
-

@@ -15,25 +15,22 @@
 
 import SwiftUI
 
-struct SwiftUSematicColors: View {
+struct SwiftUIStandardColors: View {
     var body: some View {
-        NavigationStack{
-            Form {
-                Section("Foreground Colors") {
-                    Color.primary
-                    Color.secondary
-                    Color.accentColor
-                }
-                Section("Mixing Colors") {
-                    Color.red.mix(with: .green, by: 0.5)
+        ScrollView{ 
+            SplitColorScheme {
+                Section("Standard Colors") {
+
                 }
             }
-            .navigationTitle("SwiftUI Semantic Colors")
-            .navigationBarTitleDisplayMode(.inline)
+            .padding(.horizontal, 5)
         }
     }
 }
 
 #Preview {
-    SwiftUSematicColors()
+    NavigationStack{
+        SwiftUIStandardColors()
+            .navigationTitle("SwiftUI Standard Colors")
+    }
 }

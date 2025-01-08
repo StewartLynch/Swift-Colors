@@ -15,31 +15,22 @@
 
 import SwiftUI
 
-struct SwiftUIStandardColors: View {
+struct ComponentValues: View {
     var body: some View {
-        Form {
-            Section("Standard Colors") {
-                Color.black
-                Color.blue
-                Color.brown
-                Color.clear
-                Color.cyan
-                Color.gray
-                Color.green
-                Color.indigo
-                Color.mint
-                Color.orange
-                Color.pink
-                Color.purple
-                Color.red
-                Color.teal
-                Color.white
-                Color.yellow
+        ScrollView {
+            SplitColorScheme {
+                Section{
+
+                }
             }
+            .padding(.horizontal,5)
         }
     }
 }
 
 #Preview {
-    SwiftUIStandardColors()
+    NavigationStack {
+        ComponentValues()
+            .navigationTitle("Component Values")
+    }
 }

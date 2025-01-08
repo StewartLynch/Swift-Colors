@@ -14,38 +14,6 @@
 
 
 import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Color.red
-            Color.myRed
-            Color.primary
-            Color.secondary
-            Color(red: 0.5, green: 0.7, blue: 0.2, opacity: 1.0)
-            Color(hue: 0.3, saturation: 0.8, brightness: 0.7, opacity: 1.0)
-            Color(hex: "#FF00FF")
-            Color(.systemIndigo)
-            Color(.systemBackground)
-            Color(.label)
-            Color.purple
-            Color.purple.brightness(0.2)
-            Color.purple.opacity(0.52)
-            Color.purple.grayscale(0.5)
-            // Assets
-            
-            
-        }
-        .padding()
-    }
-    
-    
-}
-
-#Preview {
-    ContentView()
-}
-
 extension Color {
     init(hex: String) {
         let cleanHex = hex.trimmingCharacters(in: .whitespacesAndNewlines)
