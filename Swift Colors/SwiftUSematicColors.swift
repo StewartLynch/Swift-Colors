@@ -17,7 +17,20 @@ import SwiftUI
 
 struct SwiftUSematicColors: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            Form {
+                Section("Foreground Colors") {
+                    Color.primary
+                    Color.secondary
+                    Color.accentColor
+                }
+                Section("Mixing Colors") {
+                    Color.red.mix(with: .green, by: 0.5)
+                }
+            }
+            .navigationTitle("SwiftUI Semantic Colors")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

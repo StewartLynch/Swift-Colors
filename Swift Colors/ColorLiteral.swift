@@ -16,6 +16,8 @@
 import SwiftUI
 
 struct ColorLiteral: View {
+    // First type Color(#colorLiteral(  == do not close parenthesis
+    // Choose the color and then close the parenthesis
     let tl = Color(#colorLiteral(red: 0.7486225593, green: 0.5388351951, blue: 0.9529411793, alpha: 1))
     let tr = Color(#colorLiteral(red: 0.1751026476, green: 0.1911563514, blue: 0.8078431487, alpha: 1))
     let bl = Color(#colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1))

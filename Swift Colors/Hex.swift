@@ -17,10 +17,19 @@ import SwiftUI
 
 struct Hex: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Color(.red).opacity(0.5)
+            Color(hue: 0, saturation: 1.0, brightness: 1.0, opacity: 0.5)
+            Color(red: 1.0, green: 0, blue: 0, opacity: 1.0).opacity(0.5)
+            Color(hex: "#FF0000").opacity(0.5)
+            Color(white: 0.5)
+            Color(.link)
+            Rectangle().fill(.red.gradient)
+        }
     }
 }
 
 #Preview {
     Hex()
 }
+

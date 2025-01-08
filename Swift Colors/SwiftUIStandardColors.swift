@@ -17,7 +17,26 @@ import SwiftUI
 
 struct SwiftUIStandardColors: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Section("Standard Colors") {
+                Color.black
+                Color.blue
+                Color.brown
+                Color.clear
+                Color.cyan
+                Color.gray
+                Color.green
+                Color.indigo
+                Color.mint
+                Color.orange
+                Color.pink
+                Color.purple
+                Color.red
+                Color.teal
+                Color.white
+                Color.yellow
+            }
+        }
     }
 }
 

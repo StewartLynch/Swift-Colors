@@ -12,7 +12,7 @@
 //----------------------------------------------
 // Copyright © 2025 CreaTECH Solutions. All rights reserved.
 
-
+import SwiftUI
 
 struct ColorSection<Content: View>: View {
     @ViewBuilder var content: Content
@@ -29,6 +29,7 @@ struct ColorSection<Content: View>: View {
                 }
                 .padding(.horizontal)
             }
+            .padding(.top)
             .background(Color(.systemBackground))
             .environment(\.colorScheme, .light)
             VStack {
@@ -42,6 +43,7 @@ struct ColorSection<Content: View>: View {
                 }
                 .padding(.horizontal)
             }
+            .padding(.top)
             .background(Color(.systemBackground))
             .environment(\.colorScheme, .dark)
         }
