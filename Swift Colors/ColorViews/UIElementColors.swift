@@ -20,28 +20,40 @@ struct UIElementColors: View {
         ScrollView {
             SplitColorScheme{
                 Section("Label Colors") {
-
+                    Color(.label)
+                    Color(.secondaryLabel)
+                    Color(.tertiaryLabel)
+                    Color(.quaternaryLabel)
                 }
                 Section("Fill Colors") {
-
+                    Color(.systemFill)
+                    Color(.secondarySystemFill)
+                    Color(.tertiarySystemFill)
+                    Color(.quaternarySystemFill)
                 }
                 Section("Text Color") {
-
+                    Color(.placeholderText)
                 }
                 Section("Standard Content Background Colors") {
-
+                    Color(.systemBackground)
+                    Color(.secondarySystemBackground)
+                    Color(.tertiarySystemBackground)
                 }
                 Section("Grouped Content Background Colors") {
-
+                    Color(.systemGroupedBackground)
+                    Color(.secondarySystemGroupedBackground)
+                    Color(.tertiarySystemGroupedBackground)
                 }
                 Section("Separator Colors") {
-
+                    Color(.separator)
+                    Color(.opaqueSeparator)
                 }
                 Section("Link color") {
-
+                    Color(.link)
                 }
                 Section("Nonadaptable Colors") {
-
+                    Color(.darkText)
+                    Color(.lightText)
                 }
             }
         }

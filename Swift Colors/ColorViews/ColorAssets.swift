@@ -20,7 +20,10 @@ struct ColorAssets: View {
         ScrollView {
             SplitColorScheme {
                 Section {
-
+                    Color.accentColor
+                    Color(.tintColor)
+                    Color.app
+                    Color.theme
                 }
             }
             .padding(.horizontal,5)

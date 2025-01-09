@@ -20,7 +20,12 @@ struct ComponentValues: View {
         ScrollView {
             SplitColorScheme {
                 Section{
-
+                    Color(red: 1, green: 0, blue: 0, opacity: 1)
+                    Color(hue: 0, saturation: 1, brightness: 1, opacity: 1)
+                    Color(hex: "#FF0000")
+                    Color.red
+                    Color(.red)
+                    Color(white: 0.5, opacity: 1)
                 }
             }
             .padding(.horizontal,5)

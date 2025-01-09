@@ -19,7 +19,8 @@ struct SwiftUSematicColors: View {
     var body: some View {
         ScrollView {
             SplitColorScheme{
-
+                Color.primary
+                Color.secondary
             }
         }
         .padding(.horizontal, 5)

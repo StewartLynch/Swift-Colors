@@ -21,13 +21,44 @@ struct UIKitStandardColors: View {
         ScrollView {
             SplitColorScheme{
                 Section("Adaptable Colors") {
-
+//                    Color(uiColor: .systemBlue)
+                    Color(.systemBlue)
+                    Color(.systemBrown)
+                    Color(.systemCyan)
+                    Color(.systemGreen)
+                    Color(.systemIndigo)
+                    Color(.systemOrange)
+                    Color(.systemPink)
+                    Color(.systemPurple)
+                    Color(.systemRed)
+                    Color(.systemTeal)
+                    Color(.systemYellow)
                 }
                 Section("Adaptable Gray Colors") {
+                    Color(.systemGray)
+                    Color(.systemGray2)
+                    Color(.systemGray3)
+                    Color(.systemGray4)
+                    Color(.systemGray5)
+                    Color(.systemGray6)
 
                 }
                 Section("Fixed Colors") {
-
+                    Color(.clear)
+                    Color(.black)
+                    Color(.blue)
+                    Color(.brown)
+                    Color(.cyan)
+                    Color(.darkGray)
+                    Color(.gray)
+                    Color(.green)
+                    Color(.lightGray)
+                    Color(.magenta)
+                    Color(.orange)
+                    Color(.purple)
+                    Color(.red)
+                    Color(.white)
+                    Color(.yellow)
                 }
             }
             .padding(.horizontal,5)
