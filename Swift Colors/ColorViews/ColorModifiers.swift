@@ -19,9 +19,7 @@ struct ColorModifiers: View {
     var body: some View {
         ScrollView {
             SplitColorScheme {
-                Section("Modifiers") {
 
-                }
             }
         }
     }
