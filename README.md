@@ -2,7 +2,9 @@
 
 ![mac128](Images/mac128.png) This is the completed source code for the video on Mastering SwiftUI Color Views
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=w_YjwL3r-ts
+" target="_blank"><img src="http://img.youtube.com/vi/w_YjwL3r-ts/0.jpg" 
+alt="Mastering Color Views" width="480" height="360" border="1" /></a>
 
 If you want to support my work, you can - </br>
 
